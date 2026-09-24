@@ -1,0 +1,9 @@
+{
+  "name": "gvcc-bocce",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standings and schedule for the Green Valley Country Club bocce leagues",
+  "scripts": {
+    "build": "node scripts/build.js"
+  }
+}

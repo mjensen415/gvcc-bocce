@@ -1,0 +1,950 @@
+{
+ "season": {
+  "name": "Fall 2026",
+  "starts_on": "2026-08-20",
+  "ends_on": "2026-10-02",
+  "playoff_spots": 4
+ },
+ "rules": {
+  "games_per_match": 3,
+  "target_points": null,
+  "_comment_target_points": "Unconfirmed. The spring rules PDF said 12, but the fall standings contradict it: DaVinci shows 12 games won on 133 points through week 5, and twelve wins at 12 would need 144. Set this once the real format is known and the validator will start enforcing it."
+ },
+ "teams": {
+  "Thursday": [
+   "Bocce Ballers",
+   "Bocce Bunch",
+   "D'Boccery",
+   "DaVinci",
+   "La Vita Bella",
+   "Rolling Eagles",
+   "Rolling Stones",
+   "The Ballbarians"
+  ],
+  "Friday": [
+   "Bocce Posse",
+   "Bocced It",
+   "Chewbocce",
+   "Jim Cantino",
+   "On a Roll",
+   "Over the Hill Gang",
+   "Rogue One",
+   "The Big LaBocce",
+   "Wine Brigadz"
+  ]
+ },
+ "aliases": {
+  "Ballbarians": "The Ballbarians",
+  "LaVita Bella": "La Vita Bella",
+  "Rolling Stone": "Rolling Stones",
+  "The Rolling Eagles": "Rolling Eagles",
+  "Rollling Eagles": "Rolling Eagles",
+  "D\u2019Boccery": "D'Boccery",
+  "Bocce bunch": "Bocce Bunch",
+  "The Big La Bocce": "The Big LaBocce",
+  "Big LaBocce": "The Big LaBocce",
+  "Over The Hill Gang": "Over the Hill Gang",
+  "On A Roll": "On a Roll",
+  "On a  Roll": "On a Roll",
+  "Bocced it": "Bocced It",
+  "Jom Cantino": "Jim Cantino"
+ },
+ "byes": {
+  "2026-08-21": [
+   "Bocced It"
+  ],
+  "2026-08-28": [
+   "Bocce Posse"
+  ],
+  "2026-09-04": [
+   "Jim Cantino"
+  ],
+  "2026-09-11": [
+   "On a Roll",
+   "Rogue One",
+   "The Big LaBocce"
+  ],
+  "2026-09-18": [
+   "Chewbocce"
+  ],
+  "2026-09-25": [
+   "Wine Brigadz"
+  ],
+  "2026-10-02": [
+   "Over the Hill Gang"
+  ]
+ },
+ "acknowledged_gaps": {
+  "2026-09-03": "Rolling Eagles vs La Vita Bella never reported. Both teams are a match short of the rest of the league."
+ },
+ "published_standings": {
+  "through": "2026-09-18",
+  "source": "GVCC Fall Bocce Standings through September 18 2026",
+  "note": "Games won and points are the club's published season totals. Per match figures for Sept 10 to 18 were never published separately and cannot be derived.",
+  "Thursday": {
+   "DaVinci": [
+    12,
+    133
+   ],
+   "D'Boccery": [
+    10,
+    126
+   ],
+   "Bocce Ballers": [
+    7,
+    96
+   ],
+   "La Vita Bella": [
+    6,
+    86
+   ],
+   "Bocce Bunch": [
+    7,
+    114
+   ],
+   "The Ballbarians": [
+    5,
+    99
+   ],
+   "Rolling Eagles": [
+    5,
+    71
+   ],
+   "Rolling Stones": [
+    5,
+    102
+   ]
+  },
+  "Friday": {
+   "Wine Brigadz": [
+    9,
+    111
+   ],
+   "Over the Hill Gang": [
+    9,
+    114
+   ],
+   "The Big LaBocce": [
+    7,
+    92
+   ],
+   "On a Roll": [
+    6,
+    107
+   ],
+   "Bocced It": [
+    6,
+    102
+   ],
+   "Chewbocce": [
+    6,
+    97
+   ],
+   "Jim Cantino": [
+    6,
+    75
+   ],
+   "Rogue One": [
+    5,
+    105
+   ],
+   "Bocce Posse": [
+    3,
+    67
+   ]
+  }
+ },
+ "matches": [
+  {
+   "league": "Thursday",
+   "date": "2026-08-20",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "The Ballbarians",
+   "away": "La Vita Bella",
+   "result": {
+    "games": [
+     2,
+     1
+    ],
+    "points": [
+     23,
+     20
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 1"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-08-20",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "Rolling Stones",
+   "away": "Bocce Ballers",
+   "result": {
+    "games": [
+     1,
+     2
+    ],
+    "points": [
+     19,
+     24
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 1"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-08-20",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "Bocce Bunch",
+   "away": "DaVinci",
+   "result": {
+    "games": [
+     1,
+     2
+    ],
+    "points": [
+     21,
+     23
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 1"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-08-20",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "D'Boccery",
+   "away": "Rolling Eagles",
+   "result": {
+    "games": [
+     2,
+     1
+    ],
+    "points": [
+     21,
+     16
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 1"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-08-21",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "Rogue One",
+   "away": "Chewbocce",
+   "result": {
+    "games": [
+     1,
+     2
+    ],
+    "points": [
+     25,
+     28
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 1"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-08-21",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "Bocce Posse",
+   "away": "Over the Hill Gang",
+   "result": {
+    "games": [
+     1,
+     2
+    ],
+    "points": [
+     18,
+     20
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 1"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-08-21",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "On a Roll",
+   "away": "The Big LaBocce",
+   "result": {
+    "games": [
+     0,
+     3
+    ],
+    "points": [
+     20,
+     27
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 1"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-08-21",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "Jim Cantino",
+   "away": "Wine Brigadz",
+   "result": {
+    "games": [
+     1,
+     2
+    ],
+    "points": [
+     16,
+     22
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 1"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-08-27",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "Rolling Stones",
+   "away": "The Ballbarians",
+   "result": {
+    "games": [
+     1,
+     2
+    ],
+    "points": [
+     18,
+     25
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 2"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-08-27",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "D'Boccery",
+   "away": "La Vita Bella",
+   "result": {
+    "games": [
+     2,
+     1
+    ],
+    "points": [
+     24,
+     20
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 2"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-08-27",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "DaVinci",
+   "away": "Bocce Ballers",
+   "result": {
+    "games": [
+     1,
+     2
+    ],
+    "points": [
+     20,
+     18
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 2"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-08-27",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "Bocce Bunch",
+   "away": "Rolling Eagles",
+   "result": {
+    "games": [
+     0,
+     3
+    ],
+    "points": [
+     15,
+     23
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 2"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-08-28",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "Jim Cantino",
+   "away": "Over the Hill Gang",
+   "result": {
+    "games": [
+     2,
+     1
+    ],
+    "points": [
+     18,
+     16
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 2"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-08-28",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "On a Roll",
+   "away": "Bocced It",
+   "result": {
+    "games": [
+     2,
+     1
+    ],
+    "points": [
+     27,
+     27
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 2"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-08-28",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "Rogue One",
+   "away": "Wine Brigadz",
+   "result": {
+    "games": [
+     2,
+     1
+    ],
+    "points": [
+     26,
+     16
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 2"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-08-28",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "The Big LaBocce",
+   "away": "Chewbocce",
+   "result": {
+    "games": [
+     1,
+     2
+    ],
+    "points": [
+     23,
+     22
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 2"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-03",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "D'Boccery",
+   "away": "Rolling Stones",
+   "result": {
+    "games": [
+     3,
+     0
+    ],
+    "points": [
+     33,
+     19
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 3"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-03",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "Bocce Bunch",
+   "away": "Bocce Ballers",
+   "result": {
+    "games": [
+     2,
+     1
+    ],
+    "points": [
+     27,
+     16
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 3"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-03",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "Rolling Eagles",
+   "away": "La Vita Bella"
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-03",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "DaVinci",
+   "away": "The Ballbarians",
+   "result": {
+    "games": [
+     3,
+     0
+    ],
+    "points": [
+     33,
+     14
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 3"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-04",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "The Big LaBocce",
+   "away": "Wine Brigadz",
+   "result": {
+    "games": [
+     1,
+     2
+    ],
+    "points": [
+     18,
+     28
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 3"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-04",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "Rogue One",
+   "away": "Over the Hill Gang",
+   "result": {
+    "games": [
+     0,
+     3
+    ],
+    "points": [
+     23,
+     28
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 3"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-04",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "On a Roll",
+   "away": "Bocce Posse",
+   "result": {
+    "games": [
+     3,
+     0
+    ],
+    "points": [
+     36,
+     10
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 3"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-04",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "Bocced It",
+   "away": "Chewbocce",
+   "result": {
+    "games": [
+     2,
+     1
+    ],
+    "points": [
+     23,
+     27
+    ],
+    "detail": "summary",
+    "source": "standings PDF week 3"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-10",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "Bocce Bunch",
+   "away": "La Vita Bella",
+   "result": {
+    "outcome": "away",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-10",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "DaVinci",
+   "away": "D'Boccery",
+   "result": {
+    "outcome": "home",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-10",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "Rolling Eagles",
+   "away": "Rolling Stones",
+   "result": {
+    "outcome": "away",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-10",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "Bocce Ballers",
+   "away": "The Ballbarians",
+   "result": {
+    "outcome": "home",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-11",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "Bocce Posse",
+   "away": "Wine Brigadz",
+   "result": {
+    "outcome": "away",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-11",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "Chewbocce",
+   "away": "Over the Hill Gang",
+   "result": {
+    "outcome": "away",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-11",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "Bocced It",
+   "away": "Jim Cantino",
+   "result": {
+    "outcome": "home",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-17",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "Rolling Eagles",
+   "away": "DaVinci",
+   "result": {
+    "outcome": "away",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-17",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "Bocce Bunch",
+   "away": "The Ballbarians",
+   "result": {
+    "outcome": "home",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-17",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "Bocce Ballers",
+   "away": "D'Boccery",
+   "result": {
+    "outcome": "away",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-17",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "La Vita Bella",
+   "away": "Rolling Stones",
+   "result": {
+    "outcome": "home",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-18",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "On a Roll",
+   "away": "Jim Cantino",
+   "result": {
+    "outcome": "away",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-18",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "Bocced It",
+   "away": "Wine Brigadz",
+   "result": {
+    "outcome": "away",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-18",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "The Big LaBocce",
+   "away": "Over the Hill Gang",
+   "result": {
+    "outcome": "home",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-18",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "Rogue One",
+   "away": "Bocce Posse",
+   "result": {
+    "outcome": "home",
+    "detail": "outcome",
+    "source": "solved from the combined week 4 and 5 standings"
+   }
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-24",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "Bocce Ballers",
+   "away": "Rolling Eagles"
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-24",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "La Vita Bella",
+   "away": "DaVinci"
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-24",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "The Ballbarians",
+   "away": "D'Boccery"
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-09-24",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "Bocce Bunch",
+   "away": "Rolling Stones"
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-25",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "On a Roll",
+   "away": "Chewbocce"
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-25",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "The Big LaBocce",
+   "away": "Bocce Posse"
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-25",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "Bocced It",
+   "away": "Over the Hill Gang"
+  },
+  {
+   "league": "Friday",
+   "date": "2026-09-25",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "Rogue One",
+   "away": "Jim Cantino"
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-10-01",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "Bocce Bunch",
+   "away": "D'Boccery"
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-10-01",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "The Ballbarians",
+   "away": "Rolling Eagles"
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-10-01",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "Rolling Stones",
+   "away": "DaVinci"
+  },
+  {
+   "league": "Thursday",
+   "date": "2026-10-01",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "La Vita Bella",
+   "away": "Bocce Ballers"
+  },
+  {
+   "league": "Friday",
+   "date": "2026-10-02",
+   "time": "17:30",
+   "court": "Americana",
+   "home": "Rogue One",
+   "away": "Bocced It"
+  },
+  {
+   "league": "Friday",
+   "date": "2026-10-02",
+   "time": "17:30",
+   "court": "Italia",
+   "home": "The Big LaBocce",
+   "away": "Jim Cantino"
+  },
+  {
+   "league": "Friday",
+   "date": "2026-10-02",
+   "time": "19:15",
+   "court": "Americana",
+   "home": "Bocce Posse",
+   "away": "Chewbocce"
+  },
+  {
+   "league": "Friday",
+   "date": "2026-10-02",
+   "time": "19:15",
+   "court": "Italia",
+   "home": "On a Roll",
+   "away": "Wine Brigadz"
+  }
+ ]
+}
